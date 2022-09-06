@@ -1,0 +1,91 @@
+body{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-items{
+    display: flex;
+   
+}
+
+.nav-item{
+
+    margin-right: 30px;
+
+}
+
+.main-div nav{
+    display: flex;
+    color: darkslateblue;
+    font-size: 22px;
+}
+
+img[alt="logo"]{
+    margin-right: 250px;
+}
+
+.signin-btn{
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 30px;
+    width: 130px;
+    background-image: linear-gradient(to right, #7d4fe9, rgb(245, 106, 245));    
+    border-color: magenta;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+}
+
+.learn-more-btn{
+    border-radius: 30px;
+    padding: 20px;
+    width: 230px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    background-image: linear-gradient(to right,  #7d4fe9, rgb(245, 106, 245));
+    border-color: magenta;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+img[alt="intro-img"]{
+    float: right;
+    margin-right: 30px;
+    margin-top: -440px;   
+}
+
+.left-section h1{
+    margin-top: 150px;
+    font-size: 70px;
+    color: darkslateblue;
+}
+
+.left-section h4{
+   width: 300px;
+   color: lightslategray;
+   word-spacing: 1px;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+img[alt="vector-img"]{
+
+    margin-left: 300px;
+    margin-top: 90px;
+    width: 150px;
+}
+
+img[alt="vector-dot"]{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+img[alt="backcover-img"]{
+    position: absolute;
+    margin-top: -590px;
+    margin-left: 480px;
+    z-index: -1;
+}
